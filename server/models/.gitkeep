@@ -1,0 +1,7 @@
+# Place your trained model here:
+# - model.onnx for ONNX Runtime inference
+# - model.pt for PyTorch inference
+#
+# If no model is present, the server runs in dummy mode
+# generating realistic mock predictions for UI testing.
+

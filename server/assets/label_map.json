@@ -1,0 +1,182 @@
+{
+  "A01": {
+    "name": "Go up the stairs",
+    "name_es": "Subir escaleras",
+    "category": "locomotor",
+    "labels": {
+      "0": "He/she cannot climb up the stairs.",
+      "1": "He/she can climb up the stairs but pauses a little.",
+      "2": "He/she can climb up the stairs without difficulty."
+    },
+    "labels_es": {
+      "0": "No puede subir las escaleras.",
+      "1": "Puede subir las escaleras pero hace pausas.",
+      "2": "Puede subir las escaleras sin dificultad."
+    }
+  },
+  "A02": {
+    "name": "Go down the stairs",
+    "name_es": "Bajar escaleras",
+    "category": "locomotor",
+    "labels": {
+      "0": "He/she cannot go down the stairs.",
+      "1": "He/she can go down the stairs but pauses a little.",
+      "2": "He/she can go down the stairs without difficulty."
+    },
+    "labels_es": {
+      "0": "No puede bajar las escaleras.",
+      "1": "Puede bajar las escaleras pero hace pausas.",
+      "2": "Puede bajar las escaleras sin dificultad."
+    }
+  },
+  "A03": {
+    "name": "Throw the ball",
+    "name_es": "Lanzar la pelota",
+    "category": "locomotor",
+    "labels": {
+      "0": "He/she cannot throw the ball over his/her head.",
+      "1": "He/she can throw the ball over his/her head but staggers.",
+      "2": "He/she can throw the ball over his/her head while standing straight."
+    },
+    "labels_es": {
+      "0": "No puede lanzar la pelota por encima de su cabeza.",
+      "1": "Puede lanzar la pelota por encima de su cabeza pero tambalea.",
+      "2": "Puede lanzar la pelota por encima de su cabeza manteniéndose erguido."
+    }
+  },
+  "A04": {
+    "name": "Stand on one foot",
+    "name_es": "Pararse en un pie",
+    "category": "locomotor",
+    "labels": {
+      "0": "He/she cannot stand on one foot even for a moment.",
+      "1": "He/she can stand on one foot for a second but staggers.",
+      "2": "He/she can stand on one foot for a second without staggering."
+    },
+    "labels_es": {
+      "0": "No puede pararse en un pie ni por un momento.",
+      "1": "Puede pararse en un pie por un segundo pero tambalea.",
+      "2": "Puede pararse en un pie por un segundo sin tambalearse."
+    }
+  },
+  "B01": {
+    "name": "Stand on one foot (extended)",
+    "name_es": "Pararse en un pie (extendido)",
+    "category": "ballSkills",
+    "labels": {
+      "0": "He/she cannot stand on one foot even for a moment.",
+      "1": "He/she can stand on one foot for more than three seconds but staggers.",
+      "2": "He/she can stand on one foot for more than three seconds without staggering."
+    },
+    "labels_es": {
+      "0": "No puede pararse en un pie ni por un momento.",
+      "1": "Puede pararse en un pie por más de 3 segundos pero tambalea.",
+      "2": "Puede pararse en un pie por más de 3 segundos sin tambalearse."
+    }
+  },
+  "B02": {
+    "name": "Hop 2-3 steps",
+    "name_es": "Saltar 2-3 pasos",
+    "category": "ballSkills",
+    "labels": {
+      "0": "He/she cannot hop even once.",
+      "1": "He/she can hop 2-3 steps but pauses a little.",
+      "2": "He/she can hop 2-3 steps without difficulty."
+    },
+    "labels_es": {
+      "0": "No puede saltar ni una vez.",
+      "1": "Puede saltar 2-3 pasos pero hace pausas.",
+      "2": "Puede saltar 2-3 pasos sin dificultad."
+    }
+  },
+  "B03": {
+    "name": "Long jump",
+    "name_es": "Salto largo",
+    "category": "ballSkills",
+    "labels": {
+      "0": "He/she cannot jump with his/her feet together.",
+      "1": "He/she can jump with his/her feet together.",
+      "2": "He/she can jump a long distance with his/her feet together."
+    },
+    "labels_es": {
+      "0": "No puede saltar con los pies juntos.",
+      "1": "Puede saltar con los pies juntos.",
+      "2": "Puede saltar una distancia larga con los pies juntos."
+    }
+  },
+  "B04": {
+    "name": "Receive the ball",
+    "name_es": "Recibir la pelota",
+    "category": "ballSkills",
+    "labels": {
+      "0": "He/she cannot receive a ball.",
+      "1": "He/she can receive a ball using both arms and chest but staggers after receiving it.",
+      "2": "He/she can receive a ball using both arms and chest without staggering."
+    },
+    "labels_es": {
+      "0": "No puede recibir una pelota.",
+      "1": "Puede recibir la pelota con ambos brazos y pecho pero tambalea después.",
+      "2": "Puede recibir la pelota con ambos brazos y pecho sin tambalearse."
+    }
+  },
+  "C01": {
+    "name": "Stop the rolling ball",
+    "name_es": "Detener la pelota rodando",
+    "category": "balance",
+    "labels": {
+      "0": "He/she cannot stop a rolling ball with his/her foot.",
+      "1": "He/she can stop a rolling ball with his/her foot.",
+      "2": "He/she can stop a rolling ball with his/her sole."
+    },
+    "labels_es": {
+      "0": "No puede detener una pelota rodando con el pie.",
+      "1": "Puede detener una pelota rodando con el pie.",
+      "2": "Puede detener una pelota rodando con la planta del pie."
+    }
+  },
+  "C02": {
+    "name": "Bounce the ball",
+    "name_es": "Rebotar la pelota",
+    "category": "balance",
+    "labels": {
+      "0": "He/she cannot bounce the ball on the floor at all.",
+      "1": "He/she can bounce the ball on the floor once.",
+      "2": "He/she can bounce the ball on the floor once stably."
+    },
+    "labels_es": {
+      "0": "No puede rebotar la pelota en el suelo.",
+      "1": "Puede rebotar la pelota en el suelo una vez.",
+      "2": "Puede rebotar la pelota en el suelo una vez de forma estable."
+    }
+  },
+  "C03": {
+    "name": "Jump over the rope",
+    "name_es": "Saltar sobre la cuerda",
+    "category": "balance",
+    "labels": {
+      "0": "He/she cannot jump over the rope tied below his/her knee level.",
+      "1": "He/she can jump over the rope with a little hesitation.",
+      "2": "He/she can jump over the rope without hesitation."
+    },
+    "labels_es": {
+      "0": "No puede saltar sobre la cuerda atada debajo del nivel de la rodilla.",
+      "1": "Puede saltar sobre la cuerda con un poco de vacilación.",
+      "2": "Puede saltar sobre la cuerda sin vacilación."
+    }
+  },
+  "C04": {
+    "name": "Jump rope",
+    "name_es": "Saltar la cuerda",
+    "category": "balance",
+    "labels": {
+      "0": "He/she cannot jump rope even once.",
+      "1": "He/she can jump rope with a little hesitation.",
+      "2": "He/she can jump rope without hesitation."
+    },
+    "labels_es": {
+      "0": "No puede saltar la cuerda ni una vez.",
+      "1": "Puede saltar la cuerda con un poco de vacilación.",
+      "2": "Puede saltar la cuerda sin vacilación."
+    }
+  }
+}
