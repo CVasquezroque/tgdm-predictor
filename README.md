@@ -11,12 +11,7 @@
 
 DIANA Inference Tool permite evaluar habilidades motoras gruesas en niños mediante análisis de video o datos de esqueleto (skeleton points). El sistema procesa la entrada y predice puntuaciones (0, 1 o 2) para las 12 habilidades definidas en el test TGMD-3.
 
-**Características principales:**
-- 🔒 **100% Local/Offline** - Procesamiento sin conexión a internet
-- 🎬 **Dual Input** - Acepta video (.mp4, .mov, .avi) o skeleton JSON (OpenPose)
-- 🤖 **Modo Dummy** - Funciona sin modelo para desarrollo/testing
-- 📊 **Exportación** - Resultados en CSV y JSON
-- ⌨️ **Atajos de teclado** - Navegación eficiente por video
+
 
 ## Arquitectura
 
