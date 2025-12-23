@@ -14,7 +14,6 @@ export function InferencePanel({
   isUploading,
   onStartInference,
 }: Props) {
-  const isIdle = !job || job.status === 'completed' || job.status === 'failed'
   const isProcessing = job?.status === 'processing' || job?.status === 'pending'
 
   const getStatusColor = () => {

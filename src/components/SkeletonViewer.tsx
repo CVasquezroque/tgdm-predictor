@@ -73,13 +73,19 @@ export function SkeletonViewer({ data, fps = 30 }: Props) {
         try {
             const openPoseData = data as OpenPoseData
             if (openPoseData?.data && Array.isArray(openPoseData.data)) {
+                // eslint-disable-next-line react-hooks/set-state-in-effect
                 setFrames(openPoseData.data)
-                setCurrentFrame(0)
             }
         } catch {
             console.error('Invalid skeleton data format')
         }
     }, [data])
+
+    // Reset current frame when frames change
+    useEffect(() => {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
+        setCurrentFrame(0)
+    }, [frames])
 
     // Get canvas bounds from first frame
     const getBounds = useCallback(() => {
